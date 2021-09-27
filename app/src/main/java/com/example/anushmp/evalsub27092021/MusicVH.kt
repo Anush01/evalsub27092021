@@ -1,5 +1,6 @@
 package com.example.anushmp.evalsub27092021
 
+import android.content.Context
 import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
@@ -16,7 +17,11 @@ class MusicVH(itemView: View): RecyclerView.ViewHolder(itemView) {
 
         var iv = itemView.findViewById<ImageView>(R.id.songimage)
 
-       Glide.with(itemView).load(res.artworkUrl100).into(iv)
+        Glide.with(itemView).load(res.artworkUrl100).into(iv)
+
+
+
+
 
 
     }
